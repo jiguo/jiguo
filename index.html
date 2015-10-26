@@ -2,22 +2,35 @@
 layout: default
 ---
 
-<div class="home">
+<div class="jumbotron">
+    <div class="container">
+        <h1>长沙吉果财务咨询公司</h1>
+        <p>专业从事财务咨询，税务咨询，内控制度设计 ，内部审计，创业财税、法律服务（含工商注册、代理记帐、人事社保、优创法务等服务），企业管理咨询、投融资咨询，市场信息咨询与调查，等专业服务。</p>
+        <p><a class="btn btn-primary btn-lg" href="/about/" role="button">查看详情 »</a></p>
+    </div>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>活动</h2>
+            <p>代理记帐 488/月</p>
+            <p><a class="btn btn-default" href="/activity/" role="button">查看详情 »</a></p>
+        </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div class="col-md-4">
+            <h2>收费</h2>
+            <p>TODO</p>
+            <p><a class="btn btn-default" href="/expense/" role="button">查看详情 »</a></p>
+        </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+        <div class="col-md-4">
+            <h2>联系</h2>
+            <p>
+            手机: TODO <br />
+            QQ: TODO
+            </p>
+            <p><a class="btn btn-default" href="/contact/" role="button">查看详情 »</a></p>
+        </div>
+    </div>
 </div>

@@ -1,14 +1,12 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: 吉果财务
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  长沙吉果财务咨询公司专注创业服务，致力于为创业者及中小微企业提供高效、专业、低价的财税、法律、人事社保等一站式服务，全方位解决创业者及中小微企业在企业经营过程中所遇见的各类财税、法律、管理问题，帮助企业规避财税风险，轻松应对各种监督检查。 公司主推优创服务项目包括：公司注册、代理记帐、人事社保、优创法务、内控设计、财务咨询、税务咨询、内部审计、投融资咨询、企业管理咨询。
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://jiguo.mangege.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+exclude:
+    - vendor
